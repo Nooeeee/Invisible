@@ -1,0 +1,17 @@
+name: Invisible
+version: '${version}'
+
+main: org.invisible.Main
+api-version: '1.21'
+load: POSTWORLD
+
+author: Guts
+
+commands:
+  top:
+    description: Affiche les meilleurs assassins du serveur
+    usage: /top [number]
+  target:
+    description: Affiche le nom et les points de vie de l'entité visée
+    usage: /target
+    permission: op
